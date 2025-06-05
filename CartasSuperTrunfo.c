@@ -25,14 +25,11 @@ int main() {
     float area2;
     float pib2;
     int pontosTuristicos2;
-    
   
-    
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
 
-     // Cadastro Carta 1
     printf("\nINSIRA AS INFORMAÇÕES DA CARTA 01\n");
 
     printf("Estado: ");
@@ -56,7 +53,7 @@ int main() {
     printf("Numero de Pontos Turisticos: ");
     scanf("%d", &pontosTuristicos1);
 
-    // Cadastro Carta 2
+    
     printf("\nINSIRA AS INFORMAÇÕES DA CARTA 02\n");
 
     printf("Estado: ");
