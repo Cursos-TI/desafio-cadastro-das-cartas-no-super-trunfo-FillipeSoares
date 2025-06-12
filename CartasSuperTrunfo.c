@@ -29,7 +29,7 @@ int main() {
 
 
     printf("\nINSIRA AS INFORMAÇÕES DA CARTA 01\n");
-    printf("Estado: ");
+    printf("Estado:");
     scanf("%s", estado1);
 
     printf("Codigo da Carta: ");
@@ -88,8 +88,9 @@ int main() {
     printf("Area: %.2f km²\n", area1);
     printf("PIB: %.2f Bilhoes\n", pib1);
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos1);
-    printf("Densidade Populacional: %.2f hab/km²\n", densidadepopulacional1);
-    printf("PIB per Capita: %.2f\n", pibpercapta1);
+    printf("Densidade Populacional1: %.2f hab/km²\n", densidadepopulacional1);
+    printf("PIB per Capita1: %.2f\n", pibpercapta1);
+    printf("Super Poder1: %.2f", superpoder1);
 
     printf("\nCARTA 02\n");
     printf("Estado: %s\n", estado2);
@@ -99,8 +100,16 @@ int main() {
     printf("Area: %.2f km²\n", area2);
     printf("PIB: %.2f Bilhoes\n", pib2);
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos2);
-    printf("Densidade Populacional: %.2f hab/km²\n", densidadepopulacional2);
-    printf("PIB per Capita: %.2f\n", pibpercapta2);
+    printf("Densidade Populacional2: %.2f hab/km²\n", densidadepopulacional2);
+    printf("PIB per Capita2: %.2f\n", pibpercapta2);
+    printf("Super Poder2: %.2f\n", superpoder2);
+
+    //Comparações
+    printf("COMPARAÇÕES DAS CARTAS:\n");
+
+    
+
+
 
     return 0;
 }
